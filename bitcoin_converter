@@ -1,0 +1,11 @@
+# Please write your bitcoin_converter program in this file.
+import datetime
+time = datetime.datetime.now()
+date = datetime.datetime.now()
+
+print('As of', date.strftime('%m/%d/%y') ,'at', time.strftime('%H:%M %p') , 'bitcoin is currently trading at $8427 per bitcoin.')
+bitCoin = float(input('Enter the bitcoin amount: '))
+bitCoinConv =  8427  * bitCoin
+
+print('That is worth',bitCoinConv, 'us dollars.')
+
